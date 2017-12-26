@@ -12,7 +12,7 @@ $ git config --global user.email tayyabsayyad@gmail.com
 
 $ git config --list
 
-##Configure the Editor to use for comments 
+## Configure the Editor to use for comments 
 
 $ git config --global core.editor "kate"
 
