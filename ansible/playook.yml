@@ -1,0 +1,10 @@
+--- # comment line 
+
+- hosts: apacheweb
+  user: ansible
+  sudo : yes
+  connection: ssh
+  gather_facts: no
+  tasks:
+     - tasks: Install apacheweb
+       action: yum name=httpd state=installed
